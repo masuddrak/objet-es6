@@ -1,9 +1,11 @@
-// normal object
-const fish={
-    name:'Elish',
-    color:'red',
-    size:'24px',
-    id:44,
+// nexted obejet
+const company={
+    name:'GP',
+    work:{
+        seo:'digital marketar',
+        name:'sadek',
+        fremwork:'Laravel',
+    }
 }
-const {name,color,id}=fish;
-console.log(name,color,id)
+const {name,seo}=company.work;
+console.log(name,seo);
