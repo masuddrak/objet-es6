@@ -5,7 +5,11 @@ const company={
         seo:'digital marketar',
         name:'sadek',
         fremwork:'Laravel',
+        developer:{
+            name:'rabbi',
+            elemt:'html,css,javascript'
+        }
     }
 }
-const {name,seo}=company.work;
-console.log(name,seo);
+const {name,elemt}=company.work.developer
+console.log(name,elemt);
